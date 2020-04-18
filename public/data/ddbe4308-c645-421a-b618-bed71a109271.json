@@ -1,0 +1,555 @@
+{
+  "docusignenvelopeinformation": {
+    "$": {
+      "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "xmlns": "http://www.docusign.net/API/3.0"
+    },
+    "envelopestatus": [
+      {
+        "recipientstatuses": [
+          {
+            "recipientstatus": [
+              {
+                "type": ["Signer"],
+                "email": ["gvaralla@hotmail.com"],
+                "username": ["Giuseppe"],
+                "routingorder": ["1"],
+                "sent": ["2020-03-17T07:00:46.963"],
+                "delivered": ["2020-03-17T07:01:07.96"],
+                "declinereason": [{ "$": { "xsi:nil": "true" } }],
+                "status": ["Delivered"],
+                "recipientipaddress": ["177.63.223.241"],
+                "clientuserid": ["gvaralla@hotmail.com"],
+                "customfields": [{ "customfield": ["", "", ""] }],
+                "tabstatuses": [
+                  {
+                    "tabstatus": [
+                      {
+                        "tabtype": ["SignHere"],
+                        "status": ["Active"],
+                        "xposition": ["897"],
+                        "yposition": ["1310"],
+                        "tablabel": [
+                          "Assinatura b0a3d4eb-4cf0-4432-8de7-04b47effdd37"
+                        ],
+                        "tabname": ["SignHere"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["1"],
+                        "originalvalue": [""]
+                      },
+                      {
+                        "tabtype": ["SignHere"],
+                        "status": ["Active"],
+                        "xposition": ["895"],
+                        "yposition": ["762"],
+                        "tablabel": [
+                          "Assinatura 7701a26f-11ba-4b5d-a9da-d17740ddedbc"
+                        ],
+                        "tabname": ["SignHere"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""]
+                      },
+                      {
+                        "tabtype": ["SignHere"],
+                        "status": ["Active"],
+                        "xposition": ["512"],
+                        "yposition": ["1083"],
+                        "tablabel": [
+                          "Assinatura b90aaf43-45fb-4a95-8bd4-8be09778795a"
+                        ],
+                        "tabname": ["SignHere"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["42"],
+                        "yposition": ["390"],
+                        "tablabel": [
+                          "Grupos de botão de seleção 469d00a6-e771-4fc4-b7c2-16e29cbb7682"
+                        ],
+                        "tabname": ["Seleção1"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["108"],
+                        "yposition": ["390"],
+                        "tablabel": [
+                          "Grupos de botão de seleção 469d00a6-e771-4fc4-b7c2-16e29cbb7682"
+                        ],
+                        "tabname": ["Seleção2"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["44"],
+                        "yposition": ["429"],
+                        "tablabel": [
+                          "Grupos de botão de seleção a90eeec5-d6a0-4500-b585-8002fa154eec"
+                        ],
+                        "tabname": ["Seleção1"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["110"],
+                        "yposition": ["429"],
+                        "tablabel": [
+                          "Grupos de botão de seleção a90eeec5-d6a0-4500-b585-8002fa154eec"
+                        ],
+                        "tabname": ["Seleção2"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["42"],
+                        "yposition": ["471"],
+                        "tablabel": [
+                          "Grupos de botão de seleção cafd2dd9-e07e-4d71-ab88-ef232210cb28"
+                        ],
+                        "tabname": ["Seleção1"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["108"],
+                        "yposition": ["469"],
+                        "tablabel": [
+                          "Grupos de botão de seleção cafd2dd9-e07e-4d71-ab88-ef232210cb28"
+                        ],
+                        "tabname": ["Seleção2"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["110"],
+                        "yposition": ["350"],
+                        "tablabel": [
+                          "Grupos de botão de seleção a3c4ac52-5d53-4431-a0de-9beea516919d"
+                        ],
+                        "tabname": ["Seleção2"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["43"],
+                        "yposition": ["350"],
+                        "tablabel": [
+                          "Grupos de botão de seleção a3c4ac52-5d53-4431-a0de-9beea516919d"
+                        ],
+                        "tabname": ["Seleção1"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["44"],
+                        "yposition": ["508"],
+                        "tablabel": [
+                          "Grupos de botão de seleção 81ff08f0-b978-4c43-ae7e-bbeffc6f8033"
+                        ],
+                        "tabname": ["Seleção1"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["110"],
+                        "yposition": ["506"],
+                        "tablabel": [
+                          "Grupos de botão de seleção 81ff08f0-b978-4c43-ae7e-bbeffc6f8033"
+                        ],
+                        "tabname": ["Seleção2"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["42"],
+                        "yposition": ["548"],
+                        "tablabel": [
+                          "Grupos de botão de seleção ff0fb07b-9a9a-4fa0-ad9e-42a5b77f9220"
+                        ],
+                        "tabname": ["Seleção1"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["108"],
+                        "yposition": ["548"],
+                        "tablabel": [
+                          "Grupos de botão de seleção ff0fb07b-9a9a-4fa0-ad9e-42a5b77f9220"
+                        ],
+                        "tabname": ["Seleção2"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["44"],
+                        "yposition": ["588"],
+                        "tablabel": [
+                          "Grupos de botão de seleção bac993f7-375c-433b-a9bc-0ee7f4638cd3"
+                        ],
+                        "tabname": ["Seleção1"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["110"],
+                        "yposition": ["588"],
+                        "tablabel": [
+                          "Grupos de botão de seleção bac993f7-375c-433b-a9bc-0ee7f4638cd3"
+                        ],
+                        "tabname": ["Seleção2"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["42"],
+                        "yposition": ["627"],
+                        "tablabel": [
+                          "Grupos de botão de seleção f6afb6f4-64d2-4df0-ba62-eaf0ad33d7c2"
+                        ],
+                        "tabname": ["Seleção1"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["110"],
+                        "yposition": ["627"],
+                        "tablabel": [
+                          "Grupos de botão de seleção f6afb6f4-64d2-4df0-ba62-eaf0ad33d7c2"
+                        ],
+                        "tabname": ["Seleção2"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["44"],
+                        "yposition": ["665"],
+                        "tablabel": [
+                          "Grupos de botão de seleção f2a3a80a-322c-44b8-a1f0-74d534022cd9"
+                        ],
+                        "tabname": ["Seleção1"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["110"],
+                        "yposition": ["665"],
+                        "tablabel": [
+                          "Grupos de botão de seleção f2a3a80a-322c-44b8-a1f0-74d534022cd9"
+                        ],
+                        "tabname": ["Seleção2"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["42"],
+                        "yposition": ["706"],
+                        "tablabel": [
+                          "Grupos de botão de seleção dee68ce3-7b7b-4860-b3e7-6cc6c155e4f5"
+                        ],
+                        "tabname": ["Seleção1"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Active"],
+                        "xposition": ["110"],
+                        "yposition": ["704"],
+                        "tablabel": [
+                          "Grupos de botão de seleção dee68ce3-7b7b-4860-b3e7-6cc6c155e4f5"
+                        ],
+                        "tabname": ["Seleção2"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "customtabtype": ["Radio"]
+                      },
+                      {
+                        "tabtype": ["EmailAddress"],
+                        "status": ["Signed"],
+                        "xposition": ["81"],
+                        "yposition": ["188"],
+                        "tablabel": [
+                          "E-mail 43193475-0fe7-4f9b-a64c-f0562b3c97fb"
+                        ],
+                        "tabname": ["EmailAddress"],
+                        "tabvalue": ["gvaralla@hotmail.com"],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""]
+                      },
+                      {
+                        "tabtype": ["EmailAddress"],
+                        "status": ["Signed"],
+                        "xposition": ["95"],
+                        "yposition": ["187"],
+                        "tablabel": [
+                          "E-mail ba4274e1-1114-41a0-b2d5-7b677c4c077f"
+                        ],
+                        "tabname": ["EmailAddress"],
+                        "tabvalue": ["gvaralla@hotmail.com"],
+                        "documentid": ["1"],
+                        "pagenumber": ["1"],
+                        "originalvalue": [""]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Signed"],
+                        "xposition": ["91"],
+                        "yposition": ["160"],
+                        "tablabel": ["cpf"],
+                        "tabname": [""],
+                        "tabvalue": ["123456789"],
+                        "documentid": ["1"],
+                        "pagenumber": ["1"],
+                        "originalvalue": [""],
+                        "validationpattern": [""],
+                        "customtabtype": ["Text"]
+                      },
+                      {
+                        "tabtype": ["Custom"],
+                        "status": ["Signed"],
+                        "xposition": ["79"],
+                        "yposition": ["162"],
+                        "tablabel": ["cpf"],
+                        "tabname": [""],
+                        "tabvalue": ["123456789"],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""],
+                        "validationpattern": [""],
+                        "customtabtype": ["Text"]
+                      },
+                      {
+                        "tabtype": ["FullName"],
+                        "status": ["Signed"],
+                        "xposition": ["77"],
+                        "yposition": ["133"],
+                        "tablabel": [
+                          "Nome d2eba22c-f83b-47ce-98d8-3b24f41363d7"
+                        ],
+                        "tabname": ["FullName"],
+                        "tabvalue": ["Giuseppe"],
+                        "documentid": ["1"],
+                        "pagenumber": ["2"],
+                        "originalvalue": [""]
+                      },
+                      {
+                        "tabtype": ["FullName"],
+                        "status": ["Signed"],
+                        "xposition": ["91"],
+                        "yposition": ["129"],
+                        "tablabel": [
+                          "Nome 24201333-6d04-4cce-907a-b970bc755a40"
+                        ],
+                        "tabname": ["FullName"],
+                        "tabvalue": ["Giuseppe"],
+                        "documentid": ["1"],
+                        "pagenumber": ["1"],
+                        "originalvalue": [""]
+                      }
+                    ]
+                  }
+                ],
+                "accountstatus": ["Active"],
+                "recipientid": ["14fb5bf1-55e0-41f8-95cc-1abc2484a21e"]
+              }
+            ]
+          }
+        ],
+        "timegenerated": ["2020-04-18T09:00:34.7935514"],
+        "envelopeid": ["ddbe4308-c645-421a-b618-bed71a109271"],
+        "subject": ["Smartfit - Termo de Adesão"],
+        "username": ["Tiago Spineli"],
+        "email": ["tspineli02@gmail.com"],
+        "status": ["Delivered"],
+        "created": ["2020-03-17T07:00:42.683"],
+        "sent": ["2020-03-17T07:00:47.09"],
+        "delivered": ["2020-03-17T07:01:08.177"],
+        "acstatus": ["Original"],
+        "acstatusdate": ["2020-03-17T07:00:42.683"],
+        "acholder": ["Tiago Spineli"],
+        "acholderemail": ["tspineli02@gmail.com"],
+        "acholderlocation": ["DocuSign"],
+        "signinglocation": ["Online"],
+        "senderipaddress": ["177.63.223.241"],
+        "envelopepdfhash": [""],
+        "customfields": [
+          {
+            "customfield": [
+              {
+                "name": ["cnpj"],
+                "show": ["True"],
+                "required": ["False"],
+                "value": [""]
+              },
+              {
+                "name": ["Nome / Razao Social"],
+                "show": ["True"],
+                "required": ["False"],
+                "value": [""]
+              },
+              {
+                "name": ["Numero do Contrato"],
+                "show": ["True"],
+                "required": ["False"],
+                "value": [""]
+              },
+              {
+                "name": ["Exemplo Lista"],
+                "show": ["True"],
+                "required": ["False"],
+                "value": [""]
+              },
+              {
+                "name": ["templateUsageRestriction"],
+                "show": ["False"],
+                "required": ["False"],
+                "value": ["allOptions"]
+              },
+              {
+                "name": ["AccountId"],
+                "show": ["false"],
+                "required": ["false"],
+                "value": ["8177285"],
+                "customfieldtype": ["Text"]
+              },
+              {
+                "name": ["AccountName"],
+                "show": ["false"],
+                "required": ["false"],
+                "value": ["Docusign"],
+                "customfieldtype": ["Text"]
+              },
+              {
+                "name": ["AccountSite"],
+                "show": ["false"],
+                "required": ["false"],
+                "value": ["demo"],
+                "customfieldtype": ["Text"]
+              }
+            ]
+          }
+        ],
+        "autonavigation": ["true"],
+        "envelopeidstamping": ["true"],
+        "authoritativecopy": ["false"],
+        "documentstatuses": [
+          {
+            "documentstatus": [
+              {
+                "id": ["1"],
+                "name": ["file-converted.pdf"],
+                "templatename": ["Smartfit"],
+                "sequence": ["1"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "docusignenvelopeinformation": {
+    "$": {
+      "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "xmlns": "http://www.docusign.net/API/3.0"
+    },
+    "envelopestatus": [
+      {
+        "recipientstatuses": [
+          {
+            "recipientstatus": [
+              {
+                "type": ["Signer"],
+                "email": ["tspinelids+sms@gmail.com"],
+                "username": ["Tiago Spineli"],
+                "routingorder": ["1"],
+                "sent": ["2020-03-19T10:48:40.33"],
+                "delivered": ["2020-03-19T10:49:35.843"],
+                "signed": ["2020-03-19T10:49:41.06"],
+                "declinereason": [{ "$": { "xsi:nil": "true" } }],
+                "status": ["Completed"],
+                "recipientipaddress": ["179.99.22.24"],
+                "recipientauthenticationstatus": [""],
+                "customfields": [""],
+                "tabstatuses": [
+                  {
+                    "tabstatus": [
+                      {
+                        "tabtype": ["SignHere"],
+                        "status": ["Signed"],
+                        "xposition": ["238"],
+                        "yposition": ["213"],
+                        "tablabel": [
+                          "Assinatura e3eb55ba-4efd-4f3f-a3c2-b2e2f429e64a"
+                        ],
+                        "tabname": ["SignHere"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["1"]
+                      }
+                    ]
+                  }
+                ],
+                "accountstatus": ["Active"],
+                "recipientid": ["df236675-b6d5-4027-9c91-427341c6492a"]
+              }
+            ]
+          }
+        ],
+        "timegenerated": ["2020-04-18T09:00:35.1373459"],
+        "envelopeid": ["ba590afa-722e-4dab-98ea-c16a85ba118b"],
+        "subject": ["DocuSign: anexo.txt"],
+        "username": ["Tiago Spineli"],
+        "email": ["tspineli02@gmail.com"],
+        "status": ["Completed"],
+        "created": ["2020-03-19T10:47:56.693"],
+        "sent": ["2020-03-19T10:48:40.36"],
+        "delivered": ["2020-03-19T10:49:35.937"],
+        "signed": ["2020-03-19T10:49:41.06"],
+        "completed": ["2020-03-19T10:49:41.06"],
+        "acstatus": ["Original"],
+        "acstatusdate": ["2020-03-19T10:47:56.693"],
+        "acholder": ["Tiago Spineli"],
+        "acholderemail": ["tspineli02@gmail.com"],
+        "acholderlocation": ["DocuSign"],
+        "signinglocation": ["Online"],
+        "senderipaddress": ["179.99.22.24"],
+        "envelopepdfhash": [""],
+        "customfields": [
+          {
+            "customfield": [
+              {
+                "name": ["cnpj"],
+                "show": ["True"],
+                "required": ["False"],
+                "value": [""]
+              },
+              {
+                "name": ["Nome / Razao Social"],
+                "show": ["True"],
+                "required": ["False"],
+                "value": [""]
+              },
+              {
+                "name": ["Numero do Contrato"],
+                "show": ["True"],
+                "required": ["False"],
+                "value": [""]
+              },
+              {
+                "name": ["Exemplo Lista"],
+                "show": ["True"],
+                "required": ["False"],
+                "value": [""]
+              },
+              {
+                "name": ["AccountId"],
+                "show": ["false"],
+                "required": ["false"],
+                "value": ["8177285"],
+                "customfieldtype": ["Text"]
+              },
+              {
+                "name": ["AccountName"],
+                "show": ["false"],
+                "required": ["false"],
+                "value": ["Docusign"],
+                "customfieldtype": ["Text"]
+              },
+              {
+                "name": ["AccountSite"],
+                "show": ["false"],
+                "required": ["false"],
+                "value": ["demo"],
+                "customfieldtype": ["Text"]
+              }
+            ]
+          }
+        ],
+        "autonavigation": ["true"],
+        "envelopeidstamping": ["true"],
+        "authoritativecopy": ["false"],
+        "documentstatuses": [
+          {
+            "documentstatus": [
+              {
+                "id": ["1"],
+                "name": ["anexo.txt"],
+                "templatename": [""],
+                "sequence": ["1"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

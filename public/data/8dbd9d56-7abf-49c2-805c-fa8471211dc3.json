@@ -1,0 +1,111 @@
+{
+  "docusignenvelopeinformation": {
+    "$": {
+      "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "xmlns": "http://www.docusign.net/API/3.0"
+    },
+    "envelopestatus": [
+      {
+        "recipientstatuses": [
+          {
+            "recipientstatus": [
+              {
+                "type": ["Signer"],
+                "email": ["tspinelids@gmail.com"],
+                "username": ["tiago spineli"],
+                "routingorder": ["1"],
+                "sent": ["2020-03-26T08:15:15.193"],
+                "delivered": ["2020-03-26T08:20:26.973"],
+                "declinereason": [{ "$": { "xsi:nil": "true" } }],
+                "status": ["Delivered"],
+                "recipientipaddress": ["152.250.92.186"],
+                "customfields": [""],
+                "tabstatuses": [
+                  {
+                    "tabstatus": [
+                      {
+                        "tabtype": ["SignHere"],
+                        "status": ["Signed"],
+                        "xposition": ["473"],
+                        "yposition": ["152"],
+                        "tablabel": [
+                          "Assinatura 826bf32e-fa1d-4a52-917e-420be4bf0afa"
+                        ],
+                        "tabname": ["SignHere"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["1"]
+                      }
+                    ]
+                  }
+                ],
+                "accountstatus": ["Active"],
+                "recipientid": ["26d04556-b46a-41c1-9fd7-57aae313e622"]
+              }
+            ]
+          }
+        ],
+        "timegenerated": ["2020-04-18T09:00:36.8562409"],
+        "envelopeid": ["8dbd9d56-7abf-49c2-805c-fa8471211dc3"],
+        "subject": ["Demo Einstein"],
+        "username": ["Tiago Spineli"],
+        "email": ["tspineli02@gmail.com"],
+        "status": ["Delivered"],
+        "created": ["2020-03-26T08:14:41.813"],
+        "sent": ["2020-03-26T08:15:15.257"],
+        "delivered": ["2020-03-26T08:20:27.02"],
+        "acstatus": ["Original"],
+        "acstatusdate": ["2020-03-26T08:14:41.813"],
+        "acholder": ["Tiago Spineli"],
+        "acholderemail": ["tspineli02@gmail.com"],
+        "acholderlocation": ["DocuSign"],
+        "signinglocation": ["Online"],
+        "senderipaddress": ["152.250.92.186"],
+        "envelopepdfhash": [""],
+        "customfields": [
+          {
+            "customfield": [
+              {
+                "name": ["AccountId"],
+                "show": ["false"],
+                "required": ["false"],
+                "value": ["8177285"],
+                "customfieldtype": ["Text"]
+              },
+              {
+                "name": ["AccountName"],
+                "show": ["false"],
+                "required": ["false"],
+                "value": ["Docusign"],
+                "customfieldtype": ["Text"]
+              },
+              {
+                "name": ["AccountSite"],
+                "show": ["false"],
+                "required": ["false"],
+                "value": ["demo"],
+                "customfieldtype": ["Text"]
+              }
+            ]
+          }
+        ],
+        "autonavigation": ["true"],
+        "envelopeidstamping": ["true"],
+        "authoritativecopy": ["false"],
+        "documentstatuses": [
+          {
+            "documentstatus": [
+              {
+                "id": ["1"],
+                "name": ["anexo.txt"],
+                "templatename": [""],
+                "sequence": ["1"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
