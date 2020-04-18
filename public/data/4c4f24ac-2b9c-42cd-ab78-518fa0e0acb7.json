@@ -1,0 +1,114 @@
+{
+  "docusignenvelopeinformation": {
+    "$": {
+      "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "xmlns": "http://www.docusign.net/API/3.0"
+    },
+    "envelopestatus": [
+      {
+        "recipientstatuses": [
+          {
+            "recipientstatus": [
+              {
+                "type": ["Signer"],
+                "email": ["tspinelids@gmail.com"],
+                "username": ["tiago spineli"],
+                "routingorder": ["1"],
+                "sent": ["2020-04-16T05:38:50.43"],
+                "delivered": ["2020-04-16T05:39:21.573"],
+                "signed": ["2020-04-16T05:39:26.34"],
+                "declinereason": [{ "$": { "xsi:nil": "true" } }],
+                "status": ["Completed"],
+                "recipientipaddress": ["177.139.92.234"],
+                "customfields": [""],
+                "tabstatuses": [
+                  {
+                    "tabstatus": [
+                      {
+                        "tabtype": ["SignHere"],
+                        "status": ["Signed"],
+                        "xposition": ["229"],
+                        "yposition": ["1331"],
+                        "tablabel": [
+                          "Assinatura 8a1ca567-70b0-43fc-9f48-97fa974c9950"
+                        ],
+                        "tabname": ["SignHere"],
+                        "tabvalue": [""],
+                        "documentid": ["1"],
+                        "pagenumber": ["1"]
+                      }
+                    ]
+                  }
+                ],
+                "accountstatus": ["Active"],
+                "recipientid": ["23596838-d765-45e0-997a-8bf035dbe2b0"]
+              }
+            ]
+          }
+        ],
+        "timegenerated": ["2020-04-17T14:19:34.824716"],
+        "envelopeid": ["4c4f24ac-2b9c-42cd-ab78-518fa0e0acb7"],
+        "subject": ["DocuSign: Exemplo de Contrato.docx"],
+        "username": ["Tiago Spineli"],
+        "email": ["tspineli02@gmail.com"],
+        "status": ["Completed"],
+        "created": ["2020-04-16T05:38:16.86"],
+        "sent": ["2020-04-16T05:38:50.447"],
+        "delivered": ["2020-04-16T05:39:21.637"],
+        "signed": ["2020-04-16T05:39:26.34"],
+        "completed": ["2020-04-16T05:39:26.34"],
+        "acstatus": ["Original"],
+        "acstatusdate": ["2020-04-16T05:38:16.86"],
+        "acholder": ["Tiago Spineli"],
+        "acholderemail": ["tspineli02@gmail.com"],
+        "acholderlocation": ["DocuSign"],
+        "signinglocation": ["Online"],
+        "senderipaddress": ["177.139.92.234"],
+        "envelopepdfhash": [""],
+        "customfields": [
+          {
+            "customfield": [
+              {
+                "name": ["AccountId"],
+                "show": ["false"],
+                "required": ["false"],
+                "value": ["8177285"],
+                "customfieldtype": ["Text"]
+              },
+              {
+                "name": ["AccountName"],
+                "show": ["false"],
+                "required": ["false"],
+                "value": ["Docusign"],
+                "customfieldtype": ["Text"]
+              },
+              {
+                "name": ["AccountSite"],
+                "show": ["false"],
+                "required": ["false"],
+                "value": ["demo"],
+                "customfieldtype": ["Text"]
+              }
+            ]
+          }
+        ],
+        "autonavigation": ["true"],
+        "envelopeidstamping": ["true"],
+        "authoritativecopy": ["false"],
+        "documentstatuses": [
+          {
+            "documentstatus": [
+              {
+                "id": ["1"],
+                "name": ["Exemplo de Contrato.docx"],
+                "templatename": [""],
+                "sequence": ["1"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
