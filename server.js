@@ -19,7 +19,7 @@ function savelog(data){
 app.post("/", function(request, response) {
   response.writeHead(200, { "Content-Type": "text/html" });
   response.end("recebido");
-  envelopeid=response.docusignenvelopeinformation.envelopestatus[0].envelopeid[0];
+  envelopeid=request.docusignenvelopeinformation.envelopestatus[0].envelopeid[0];
   savelog(JSON.stringify(request.body));
 });
 
