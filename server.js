@@ -1,11 +1,13 @@
 const express = require("express");
 var xmlparser = require("express-xml-bodyparser");
 var fs = require("fs");
+var cors = require("cors");
 var envelopeid;
 
 
 const app = express();
 
+app.use(cors());
 app.use(xmlparser());
 app.use(express.static("public"));
 
@@ -20,11 +22,15 @@ app.post("/", function(request, response) {
   response.writeHead(200, { "Content-Type": "text/html" });
   response.end("recebido");
   envelopeid=request.body.docusignenvelopeinformation.envelopestatus[0].envelopeid[0];
-  savelog(JSON.stringify(request.body));
+  savelog(JSON.stringify(request.body, null, 4));
 });
 
 app.get("/", function(req,res){
   res.sendFile(__dirname + "/views/index.html");
+})
+
+app.get("/download/:id", function(req,res){
+  res.download("public/data/"+req.params.id+".json"); 
 })
 
 app.get("/table",function(req,res){

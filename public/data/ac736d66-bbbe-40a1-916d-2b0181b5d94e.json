@@ -1,0 +1,256 @@
+{
+    "docusignenvelopeinformation": {
+        "$": {
+            "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+            "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "xmlns": "http://www.docusign.net/API/3.0"
+        },
+        "envelopestatus": [
+            {
+                "recipientstatuses": [
+                    {
+                        "recipientstatus": [
+                            {
+                                "type": [
+                                    "Signer"
+                                ],
+                                "email": [
+                                    "tspineli02@gmail.com"
+                                ],
+                                "username": [
+                                    "Tiago Spineli"
+                                ],
+                                "routingorder": [
+                                    "1"
+                                ],
+                                "sent": [
+                                    "2020-04-22T12:52:52.833"
+                                ],
+                                "delivered": [
+                                    "2020-04-22T12:53:14.37"
+                                ],
+                                "signed": [
+                                    "2020-04-22T12:53:18.353"
+                                ],
+                                "declinereason": [
+                                    {
+                                        "$": {
+                                            "xsi:nil": "true"
+                                        }
+                                    }
+                                ],
+                                "status": [
+                                    "Completed"
+                                ],
+                                "recipientipaddress": [
+                                    "177.139.92.234"
+                                ],
+                                "customfields": [
+                                    ""
+                                ],
+                                "tabstatuses": [
+                                    {
+                                        "tabstatus": [
+                                            {
+                                                "tabtype": [
+                                                    "SignHere"
+                                                ],
+                                                "status": [
+                                                    "Signed"
+                                                ],
+                                                "xposition": [
+                                                    "433"
+                                                ],
+                                                "yposition": [
+                                                    "156"
+                                                ],
+                                                "tablabel": [
+                                                    "Assinatura 3187b94a-3417-4ab3-bbb2-dc893f1bec82"
+                                                ],
+                                                "tabname": [
+                                                    "SignHere"
+                                                ],
+                                                "tabvalue": [
+                                                    ""
+                                                ],
+                                                "documentid": [
+                                                    "1"
+                                                ],
+                                                "pagenumber": [
+                                                    "1"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "accountstatus": [
+                                    "Active"
+                                ],
+                                "recipientid": [
+                                    "6ba3812c-c89f-4d94-810d-8682ef2c936d"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "timegenerated": [
+                    "2020-04-22T12:53:35.2061902"
+                ],
+                "envelopeid": [
+                    "ac736d66-bbbe-40a1-916d-2b0181b5d94e"
+                ],
+                "subject": [
+                    "teste download"
+                ],
+                "username": [
+                    "Tiago Spineli"
+                ],
+                "email": [
+                    "tspineli02@gmail.com"
+                ],
+                "status": [
+                    "Completed"
+                ],
+                "created": [
+                    "2020-04-22T12:52:20.62"
+                ],
+                "sent": [
+                    "2020-04-22T12:52:52.88"
+                ],
+                "delivered": [
+                    "2020-04-22T12:53:14.48"
+                ],
+                "signed": [
+                    "2020-04-22T12:53:18.353"
+                ],
+                "completed": [
+                    "2020-04-22T12:53:18.353"
+                ],
+                "acstatus": [
+                    "Original"
+                ],
+                "acstatusdate": [
+                    "2020-04-22T12:52:20.62"
+                ],
+                "acholder": [
+                    "Tiago Spineli"
+                ],
+                "acholderemail": [
+                    "tspineli02@gmail.com"
+                ],
+                "acholderlocation": [
+                    "DocuSign"
+                ],
+                "signinglocation": [
+                    "Online"
+                ],
+                "senderipaddress": [
+                    "177.139.92.234"
+                ],
+                "envelopepdfhash": [
+                    ""
+                ],
+                "customfields": [
+                    {
+                        "customfield": [
+                            {
+                                "name": [
+                                    "UnimedBH"
+                                ],
+                                "show": [
+                                    "True"
+                                ],
+                                "required": [
+                                    "False"
+                                ],
+                                "value": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "AccountId"
+                                ],
+                                "show": [
+                                    "false"
+                                ],
+                                "required": [
+                                    "false"
+                                ],
+                                "value": [
+                                    "8177285"
+                                ],
+                                "customfieldtype": [
+                                    "Text"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "AccountName"
+                                ],
+                                "show": [
+                                    "false"
+                                ],
+                                "required": [
+                                    "false"
+                                ],
+                                "value": [
+                                    "Docusign"
+                                ],
+                                "customfieldtype": [
+                                    "Text"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "AccountSite"
+                                ],
+                                "show": [
+                                    "false"
+                                ],
+                                "required": [
+                                    "false"
+                                ],
+                                "value": [
+                                    "demo"
+                                ],
+                                "customfieldtype": [
+                                    "Text"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "autonavigation": [
+                    "true"
+                ],
+                "envelopeidstamping": [
+                    "true"
+                ],
+                "authoritativecopy": [
+                    "false"
+                ],
+                "documentstatuses": [
+                    {
+                        "documentstatus": [
+                            {
+                                "id": [
+                                    "1"
+                                ],
+                                "name": [
+                                    "anexo.txt"
+                                ],
+                                "templatename": [
+                                    ""
+                                ],
+                                "sequence": [
+                                    "1"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
