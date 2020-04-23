@@ -48,6 +48,7 @@ app.get("/table",function(req,res){
     tabela.push({ID:r1,Status:r2,Criação:r3,Assunto:r4});
       i++;
   });
+  tabela.sort((a, b) => (a.Criação >= b.Criação) ? 1 : -1);
   res.send(tabela);
   
 })
