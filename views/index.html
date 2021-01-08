@@ -7,42 +7,152 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="/funcoes.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <!-- CSS Files -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
 
     <meta charset="utf-8">
     <title>DocuSign Connect Listener</title>
   </head>
   <body>
-   <div class="container-fluid">
-  <div class="col-md-12">
-
     <header>
       <br>
       <br>
       <h1>Registros Recebidos</h1>
     </header>
-    <main>
-      <br>
-      <br>
-
-      <table id="tab1" class="table table-hover">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">ID</th>
-      <th scope="col">Assunto</th>
-      <th scope="col">Status</th>
-      <th scope="col">Envio</th>
-      <th scope="col">Baixar</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr></tr>
-  </tbody>
-</table>
-      
-    </main>
-   </div>
-  </div>
+    <div class="main-panel"></div>
+      <div class="content">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card card-stats">
+            <div class="card-body ">
+              <div class="row">
+                <div class="col-5 col-md-4">
+                  <div class="icon-big text-center icon-warning">
+                    <i class="nc-icon nc-globe text-warning"></i>
+                  </div>
+                </div>
+                <div class="col-7 col-md-8">
+                  <div class="numbers">
+                    <p class="card-category">Capacity</p>
+                    <p class="card-title">150GB<p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer ">
+              <hr>
+              <div class="stats">
+                <i class="fa fa-refresh"></i>
+                Update Now
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card card-stats">
+            <div class="card-body ">
+              <div class="row">
+                <div class="col-5 col-md-4">
+                  <div class="icon-big text-center icon-warning">
+                    <i class="nc-icon nc-money-coins text-success"></i>
+                  </div>
+                </div>
+                <div class="col-7 col-md-8">
+                  <div class="numbers">
+                    <p class="card-category">Revenue</p>
+                    <p class="card-title">$ 1,345<p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer ">
+              <hr>
+              <div class="stats">
+                <i class="fa fa-calendar-o"></i>
+                Last day
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card card-stats">
+            <div class="card-body ">
+              <div class="row">
+                <div class="col-5 col-md-4">
+                  <div class="icon-big text-center icon-warning">
+                    <i class="nc-icon nc-vector text-danger"></i>
+                  </div>
+                </div>
+                <div class="col-7 col-md-8">
+                  <div class="numbers">
+                    <p class="card-category">Errors</p>
+                    <p class="card-title">23<p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer ">
+              <hr>
+              <div class="stats">
+                <i class="fa fa-clock-o"></i>
+                In the last hour
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card card-stats">
+            <div class="card-body ">
+              <div class="row">
+                <div class="col-5 col-md-4">
+                  <div class="icon-big text-center icon-warning">
+                    <i class="nc-icon nc-favourite-28 text-primary"></i>
+                  </div>
+                </div>
+                <div class="col-7 col-md-8">
+                  <div class="numbers">
+                    <p class="card-category">Followers</p>
+                    <p class="card-title">+45K<p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer ">
+              <hr>
+              <div class="stats">
+                <i class="fa fa-refresh"></i>
+                Update now
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="col-md-12">
+        <main>
+          <table id="tab1" class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">ID</th>
+                  <th scope="col">Assunto</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Envio</th>
+                  <th scope="col">Baixar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr></tr>
+              </tbody>
+            </table>
+          </div> 
+        </main>
+      </div>
+    </div>
     </body>
 </html>
