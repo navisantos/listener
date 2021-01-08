@@ -1,5 +1,5 @@
 var i=0;
-
+//get table
 $.get("/table", function(data) {
   console.log(data);
   data.forEach(linha => {
