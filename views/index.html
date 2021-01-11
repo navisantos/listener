@@ -4253,7 +4253,7 @@
                 <div class="col-7 col-md-8">
                   <div class="numbers">
                     <p class="card-category">Enviados</p>
-                    <p class="card-title">4<p>
+                    <p class="card-title" id="card-title-enviado">0<p>
                   </div>
                 </div>
               </div>
@@ -4279,7 +4279,7 @@
                 <div class="col-7 col-md-8">
                   <div class="numbers">
                     <p class="card-category">Completados</p>
-                    <p class="card-title">20<p>
+                    <p class="card-title" id="card-title-completado">0<p>
                   </div>
                 </div>
               </div>
@@ -4304,8 +4304,8 @@
                 </div>
                 <div class="col-7 col-md-8">
                   <div class="numbers">
-                    <p class="card-category">A Expirar</p>
-                    <p class="card-title">1<p>
+                    <p class="card-category"  >A Expirar</p>
+                    <p class="card-title" id="card-title-expirado">0<p>
                   </div>
                 </div>
               </div>
@@ -4346,17 +4346,29 @@
     </div>
     <script>
       var i=0;
+      var enviados = 0;
+      var completados = 0;
+      var aguardando = 0;
 //get table
 $.get("/table", function(data) {
   console.log(data);
   data.forEach(linha => {
   var x=i+1;
+  if(data[i].Status == 'Sent'){
+    enviados++;
+  }
+  if(data[i].Status == 'Completed'){
+    completados++;
+  }
   var download = '<a style="color:#212529;" href=/download/'+data[i].ID+'><i class="fas fa-file-download" style="font-size:30px"></i></a>';
   //var download = '<i class="fa fa-download"></i>';
   $("#tab1 tr:last").after('<tr><th scope="row">'+x+'</th><td>'+data[i].ID+'</td><td>'+data[i].Assunto+'</td><td>'+data[i].Status+'</td><td>'+data[i].Criação+'</td><td>'+download+'</td></tr>');
     i++;
   })
 });
+  $("card-title-expirado").val(aguardando);
+  $("card-title-completado").val(completados);
+  $("card-title-enviado").val(enviados);
     </script>
     </body>
 </html>
