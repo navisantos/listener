@@ -20,6 +20,7 @@ function savelog(data){
 
 app.post("/", function(request, response) {
   response.writeHead(200, { "Content-Type": "text/html" });
+  console.log("recebido");
   response.end("recebido");
   envelopeid=request.body.docusignenvelopeinformation.envelopestatus[0].envelopeid[0];
   savelog(JSON.stringify(request.body, null, 4));
@@ -41,6 +42,7 @@ app.get("/table",function(req,res){
     var arq = fs.readFileSync("./public/data/"+file);
     var obj=JSON.parse(arq);
     envstatus = obj.docusignenvelopeinformation.envelopestatus[0];
+    console.log(envstatus);
     r1 = envstatus.envelopeid[0];
     r2 = envstatus.status[0];
     r3 = envstatus.created[0];
