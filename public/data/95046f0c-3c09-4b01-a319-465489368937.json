@@ -1,0 +1,93 @@
+{
+    "docusignenvelopeinformation": {
+      "$": {
+        "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "xmlns": "http://www.docusign.net/API/3.0"
+      },
+      "envelopestatus": [
+        {
+          "recipientstatuses": [
+            {
+              "recipientstatus": [
+                {
+                  "type": ["CertifiedDelivery"],
+                  "email": ["tspinelids+icatu@gmail.com"],
+                  "username": ["Tiago Spineli"],
+                  "routingorder": ["1"],
+                  "sent": ["2020-03-27T07:28:32.947"],
+                  "delivered": ["2020-03-27T07:28:59.953"],
+                  "declinereason": [{ "$": { "xsi:nil": "true" } }],
+                  "status": ["Completed"],
+                  "recipientipaddress": ["152.250.92.186"],
+                  "customfields": [""],
+                  "accountstatus": ["Active"],
+                  "recipientid": ["0cadd984-7873-430f-a82d-629d31e0ac67"]
+                }
+              ]
+            }
+          ],
+          "timegenerated": ["2020-04-18T09:00:37.6219064"],
+          "envelopeid": ["95046f0c-3c09-4b01-a319-465489368937"],
+          "subject": ["Demo Icatu Notificacao"],
+          "username": ["Tiago Spineli"],
+          "email": ["tspineli02@gmail.com"],
+          "status": ["Completed"],
+          "created": ["2020-03-27T07:24:56.733"],
+          "sent": ["2020-03-27T07:28:32.98"],
+          "delivered": ["2020-03-27T07:29:00.013"],
+          "completed": ["2020-03-27T07:29:00.013"],
+          "acstatus": ["Original"],
+          "acstatusdate": ["2020-03-27T07:24:56.733"],
+          "acholder": ["Tiago Spineli"],
+          "acholderemail": ["tspineli02@gmail.com"],
+          "acholderlocation": ["DocuSign"],
+          "signinglocation": ["Online"],
+          "senderipaddress": ["152.250.92.186"],
+          "envelopepdfhash": [""],
+          "customfields": [
+            {
+              "customfield": [
+                {
+                  "name": ["AccountId"],
+                  "show": ["false"],
+                  "required": ["false"],
+                  "value": ["8177285"],
+                  "customfieldtype": ["Text"]
+                },
+                {
+                  "name": ["AccountName"],
+                  "show": ["false"],
+                  "required": ["false"],
+                  "value": ["Docusign"],
+                  "customfieldtype": ["Text"]
+                },
+                {
+                  "name": ["AccountSite"],
+                  "show": ["false"],
+                  "required": ["false"],
+                  "value": ["demo"],
+                  "customfieldtype": ["Text"]
+                }
+              ]
+            }
+          ],
+          "autonavigation": ["true"],
+          "envelopeidstamping": ["true"],
+          "authoritativecopy": ["false"],
+          "documentstatuses": [
+            {
+              "documentstatus": [
+                {
+                  "id": ["86877366"],
+                  "name": ["Exemplo Formulario.docx"],
+                  "templatename": [""],
+                  "sequence": ["1"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
