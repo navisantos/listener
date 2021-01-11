@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "docusignenvelopeinformation" : {
         "envelopestatus": [
             {
@@ -9,4 +10,7 @@
             }
         ]
     }
+=======
+    "teste" : "teste"
+>>>>>>> parent of df2cd19... Update ivan.json
 }
