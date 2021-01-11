@@ -4366,9 +4366,10 @@ $.get("/table", function(data) {
     i++;
   })
 });
-  $("card-title-expirado").val(aguardando);
-  $("card-title-completado").val(completados);
-  $("card-title-enviado").val(enviados);
+  console.log(aguardando + " " + completados + " " + enviados);
+  $("card-title-expirado").text(aguardando);
+  $("card-title-completado").text(completados);
+  $("card-title-enviado").text(enviados);
     </script>
     </body>
 </html>
